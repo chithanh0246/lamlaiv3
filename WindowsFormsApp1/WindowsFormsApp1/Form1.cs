@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (txtU.Text == "admin" && txtP.Text == "admin")
+            {
+                MessageBox.Show("Successfull");
+            }
+        }
     }
 }
